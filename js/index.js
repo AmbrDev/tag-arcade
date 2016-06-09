@@ -26,7 +26,7 @@ jQuery(function( $ ){ //Prevent conflict - http://snipplr.com/view/43906/
 
 // Back to Top
 	var scrollDiv = document.createElement("div");
-	jQuery(scrollDiv).attr("id", "toTop").attr("data-toggle", "tooltip").attr("data-placement", "left").attr("title", "Back to Top").html("<i class='fa  fa-chevron-up'></i>").appendTo("body");    
+	jQuery(scrollDiv).attr("id", "toTop").attr("data-toggle", "tooltip").attr("data-placement", "left").attr("title", "Back to Top").html("<i class='fa  fa-chevron-up'></i>").appendTo("body");
 	jQuery(window).scroll(function () {
 		if (jQuery(this).scrollTop() != 0) {
 			jQuery("#toTop").fadeIn();

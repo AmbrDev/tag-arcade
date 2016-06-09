@@ -6,31 +6,31 @@ app.config(function($stateProvider, $urlRouterProvider){
   $stateProvider
     .state('home', {
       url:'/',
-      templateUrl: '/html/home.html',
+      templateUrl: '/html/home.html'
     })
     .state('dotevade', {
       url:'/dotevade',
-      templateUrl: '/html/dotevade.html',
+      templateUrl: '/html/dotevade.html'
     })
     .state('videos', {
       url:'/videos',
-      templateUrl: '/html/videos.html',
+      templateUrl: '/html/videos.html'
     })
     .state('tips', {
       url:'/tips',
-      templateUrl: '/html/tips.html',
+      templateUrl: '/html/tips.html'
     })
     .state('tutorials', {
       url:'/tutorials',
-      templateUrl: '/html/tutorials.html',
+      templateUrl: '/html/tutorials.html'
     })
     .state('vlogs', {
       url:'/vlogs',
-      templateUrl: '/html/vlogs.html',
+      templateUrl: '/html/vlogs.html'
     })
     .state('support', {
       url:'/support',
-      templateUrl: '/html/support.html',
+      templateUrl: '/html/support.html'
     })
   $urlRouterProvider.otherwise('/');
 });
@@ -38,6 +38,6 @@ app.config(function($stateProvider, $urlRouterProvider){
 // CONTROLLER
 
 app.controller('mainCtrl', function($scope, $state) {
-  console.log('main controller works!');
+    console.log('main controller works!');
 
 });
