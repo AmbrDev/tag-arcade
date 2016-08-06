@@ -567,12 +567,13 @@ width: 24px;
 }
 
 .inner-support {
-	font-family:"Open Sans", Helvetica, Arial, sans-serif;
 	font-weight:300;
 	font-size: 12px;
 	line-height:30px;
 	color:#777;
-	background:#0CF;
+  background: #FFB75E;
+  background: -webkit-linear-gradient(to left, #FFB75E , #ED8F03);
+  background: linear-gradient(to left, #FFB75E , #ED8F03);
 }
 
 .support-container {
@@ -637,7 +638,9 @@ fieldset {
 	cursor:pointer;
 	width:100%;
 	border:none;
-	background:#0CF;
+  background: #FFB75E;
+  background: -webkit-linear-gradient(to left, #FFB75E , #ED8F03);
+  background: linear-gradient(to left, #FFB75E , #ED8F03);
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
