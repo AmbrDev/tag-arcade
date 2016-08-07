@@ -1,21 +1,22 @@
 'use strict';
 
 app.factory('videoService',['$http',function($http){
-    var video = "surprise";
+    var _title = "Pause Your Game";
     var _videos = null;
 
     return {
-        getVideo : function(){
-            return _video;
+        getTitle : function(){
+            return _title;
         },
-        setVideo : function(video){
-            _video = video;
+        setTitle : function(title){
+            _title = title;
         },
         getVideos : function(){
             return   $http({
                 method:'GET',
-                url:'/videos'
+                url:'access_db.php'
               });
         }
     }
+    console.log('video')
 }]);

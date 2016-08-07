@@ -11,9 +11,7 @@ app.config(function($stateProvider, $urlRouterProvider){
     })
     .state('dotevade', {
       url:'/dotevade',
-      templateUrl: '/html/dotevade.html',
-      controller: 'homeCtrl'
-
+      templateUrl: '/html/dotevade.html'
     })
     .state('all-videos', {
       url:'/all-videos',
