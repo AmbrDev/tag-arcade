@@ -12,6 +12,20 @@ app.controller('homeCtrl', function($scope, $state, $window, $rootScope, $locati
     };
 });
 
+app.controller('allvideosCtrl',function($scope, $state, videoFactory){
+  console.log('all videos controller');
+      $scope.videoList = [];
+
+      init();
+
+      function init(){
+          videoFactory.getVideos().success(function(data, status){
+              $scope.videoList = data;
+          });
+          console.log($scope.videoList);
+     };
+ });
+
 
 // app.controller('allvideosCtrl', ['$scope','$state','videoService',function ($scope, $state, videoService) {
 //   console.log('all videos works!');
@@ -22,28 +36,32 @@ app.controller('homeCtrl', function($scope, $state, $window, $rootScope, $locati
 //         $state.go('video-page');
 //     }
 // }]);
-app.controller('allvideosCtrl', ['$scope','$http','videoService','$sce',function($scope, $http, videoService,$sce){
-    console.log('all videos works!');
 
-  $scope.videos = [];
-  $scope.ready = false;
-  $scope.url = null;
 
-  videoService.getVideos().then(function(res){
-      $scope.videos = res.data;
-      var video = videoService.getVideos();
-      console.log($scope.videos);
-  }).catch(function(err){
-    console.log(err);
-  });
+//
+// app.controller('allvideosCtrl', ['$scope','$http','videoService',function($scope, $http, videoService){
+//     console.log('all videos works!');
+//     ,'$sce'
+// $sce
+  // $scope.videos = [];
+  // $scope.ready = false;
+  // $scope.url = null;
 
-  var myvideo1=[];
-  $scope.gotToVideo = function(event, title){
-      event.preventDefault();
-      videoService.setTitle(title);
-      $state.go('video-page');
-  }
-}]);
+  // videoService.getVideos().then(function(data){
+  //     $scope.videos = data.data;
+  //     // var video = videoService.getVideos();
+  //     console.log($scope.videos);
+  // }).catch(function(err){
+  //   console.log(err);
+  // });
+
+  // var myvideo1=[];
+  // $scope.gotToVideo = function(event, title){
+  //     event.preventDefault();
+  //     videoService.setTitle(title);
+  //     $state.go('video-page');
+  // }
+// }]);
 
 app.controller('videopageCtrl', ['$scope','$http','videoService','$sce',function($scope, $http, videoService,$sce){
   $scope.videos = [];
