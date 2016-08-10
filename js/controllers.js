@@ -12,27 +12,29 @@ app.controller('homeCtrl', function($scope, $state, $window, $rootScope, $locati
     };
 });
 
-app.controller('allvideosCtrl', ['$scope','$http','videoFactory','$sce',function($scope, $http, videoFactory,$sce){
+app.controller('allvideosCtrl', ['$scope','$http','VideoService','$sce',function($scope, $http, VideoService,$sce){
+  console.log('all videos controller!');
   $scope.videos = [];
   $scope.ready = false;
-  $scope.url = null;
-  videoFactory.getVideos().then(function(res){
+  $scope.vidLink = null;
+  $scope.vidCode = null;
+  VideoService.getVideos().then(function(res){
       $scope.videos = res.data;
-      var video = videoFactory.getVideos();
-      console.log($scope.videos);
+      var vidTitle = VideoService.getTitle();
+      console.log('videos db:',$scope.videos);
       var videoObject = $scope.videos.find(function(i){
-            return i.title == title;
+            return i.vidTitle == vidTitle;
       });
-      console.log('title:', videoObject.title);
+      // console.log('vidTitle:', videoObject.vidTitle);
       $scope.ready = true;
       if(videoObject){
-        $scope.title = videoObject.title;
-        $scope.header = videoObject.header;
-        $scope.url = $sce.trustAsResourceUrl(videoObject.url);
-        $scope.img = videoObject.img;
+        $scope.vidTitle = videoObject.vidTitle;
+        $scope.heading = videoObject.heading;
+        $scope.vidLink = $sce.trustAsResourceUrl(videoObject.vidLink);
+        $scope.imgUrl = videoObject.imgUrl;
         $scope.category = videoObject.category;
-        $scope.description = videoObject.description;
-        $scope.code = videoObject.code;
+        $scope.post = videoObject.post;
+        $scope.vidCode = $sce.trustAsResourceUrl(videoObject.vidCode);
         }
 
   }).catch(function(err){
@@ -40,68 +42,3 @@ app.controller('allvideosCtrl', ['$scope','$http','videoFactory','$sce',function
   });
 
 }]);
-
-// app.controller('allvideosCtrl', ['$scope','$state','videoFactory',function ($scope, $state, videoFactory) {
-//   console.log('all videos works!');
-//     var myvideo1=[];
-//     $scope.gotToVideo = function(event, title){
-//         event.preventDefault();
-//         moodService.setTitle(title);
-//         $state.go('video-page');
-//     }
-// }]);
-
-
-//
-// app.controller('allvideosCtrl', ['$scope','$http','videoFactory',function($scope, $http, videoFactory){
-//     console.log('all videos works!');
-//     ,'$sce'
-// $sce
-  // $scope.videos = [];
-  // $scope.ready = false;
-  // $scope.url = null;
-
-  // videoFactory.getVideos().then(function(data){
-  //     $scope.videos = data.data;
-  //     // var video = videoFactory.getVideos();
-  //     console.log($scope.videos);
-  // }).catch(function(err){
-  //   console.log(err);
-  // });
-
-  // var myvideo1=[];
-  // $scope.gotToVideo = function(event, title){
-  //     event.preventDefault();
-  //     videoFactory.setTitle(title);
-  //     $state.go('video-page');
-  // }
-// }]);
-
-// app.controller('videopageCtrl', ['$scope','$http','videoFactory','$sce',function($scope, $http, videoFactory,$sce){
-//   $scope.videos = [];
-//   $scope.ready = false;
-//   $scope.url = null;
-//   videoFactory.getVideos().then(function(res){
-//       $scope.videos = res.data;
-//       var video = videoFactory.getVideo();
-//       console.log($scope.videos);
-//       var videoObject = $scope.videos.find(function(i){
-//             return i.title == title;
-//       });
-//       console.log('title:', videoObject.title);
-//       $scope.ready = true;
-//       if(videoObject){
-//         $scope.title = videoObject.title;
-//         $scope.header = videoObject.header;
-//         $scope.url = $sce.trustAsResourceUrl(videoObject.url);
-//         $scope.img = videoObject.img;
-//         $scope.category = videoObject.category;
-//         $scope.description = videoObject.description;
-//         $scope.code = videoObject.code;
-//         }
-//
-//   }).catch(function(err){
-//     console.log(err);
-//   });
-//
-// }]);

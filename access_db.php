@@ -1,26 +1,7 @@
-
 <?php
-/*
-* Code to query an SQLite database and return
-* results as JSON.
-*/
-header("Access-Control-Allow-Origin: *");
-header("Content-Type: application/json; charset=UTF-8");
-
-// Specify your sqlite database name and path //
-$dir = 'sqlite:tagarcadevids.db';
-
-// Instantiate PDO connection object and failure msg //
-$dbh = new PDO($dir) or die("cannot open database");
-
-// Define your SQL statement //
-$query = "SELECT * FROM videos";
-
-// Iterate through the results and pass into JSON encoder //
-
-// header('Content-Type: application/json');
-
-foreach ($dbh->query($query) as $row) {
-echo json_encode($row);
+$dbhandle = sqlite3::open('tagarcadevids.db');
+$query = sqlite_query($dbhandle, 'SELECT title, header FROM videos LIMIT 5');
+while ($entry = sqlite_fetch_array($query, SQLITE_ASSOC)) {
+    echo 'title: ' . $entry['title'] . '  header: ' . $entry['header'];
 }
 ?>

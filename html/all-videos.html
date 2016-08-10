@@ -14,17 +14,16 @@
 </div>
 <!-- JUMBOTRON END -->
 
-
-
-<div class="video-container">
-    <div class="row" ng-if="ready" >
+<div class="video-container" ng-if="ready">
+    <div class="row">
+      <!-- VLOG -->
         <div class="col-sm-6 col-md-4" ng-repeat="video in videos">
             <div class="thumbnail">
-                <img src="{{video.img}}" alt="...">
+                <img src="{{video.imgUrl}}" alt="...">
                 <h4>
-                     {{video.title}}
+                     {{video.vidTitle}}
                 </h4>
-                <a ng-click="goToVideoPage($event,'{{video.title}}')" class="btn btn-primary col-xs-12" role="button">Watch</a>
+                <a href="http://bootsnipp.com/snippets/featured/post-thumbnail-list" class="btn btn-primary col-xs-12" role="button">Watch</a>
                 <div class="clearfix"></div>
             </div>
         </div>
