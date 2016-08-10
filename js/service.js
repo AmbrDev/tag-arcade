@@ -10,7 +10,7 @@ app.factory('videoFactory', function($http){
     return factory;
 });
 //
-// app.factory('videoService',['$http',function($http){
+// app.factory('videoFactory',['$http',function($http){
 //     var _title = "Pause Your Game";
 //     var _videos = null;
 //
