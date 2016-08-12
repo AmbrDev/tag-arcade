@@ -13,8 +13,6 @@ app.controller('homeCtrl', function($scope, $state, $window, $rootScope, $locati
 });
 
 app.controller('allvideosCtrl', ['$scope', '$state','$http','VideoService','$sce',function($scope, $state, $http, VideoService,$sce){
-
-
   console.log('all videos controller!');
   $scope.videos = [];
   $scope.ready = false;
