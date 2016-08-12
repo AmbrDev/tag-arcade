@@ -2,7 +2,7 @@
                 {
                     "vidTitle":"Game Development Vlog for Dot Evade",
                     "heading":"1/9/16 - Game Development Video Log- Dot Evade 1 - Week 1n",
-                    "vidLink":"https://youtu.be/5Ok2iYo4fyQ",
+                    "vidLink":"https://www.youtube.com/embed/5Ok2iYo4fyQ",
                     "imgUrl":"img/vlog-1.png",
                     "category":"vlog",
                     "post":"Hooray, my first game. I'll be talking about what I accomplished during my first week of development."
@@ -10,7 +10,7 @@
                 {
                     "vidTitle":"Event System Pt. 3",
                     "heading":"5/6/16 - Unity3D Tutorial: Event System - Part 3",
-                    "vidLink":"https://youtu.be/AKXeL32zH4I",
+                    "vidLink":"https://www.youtube.com/embed/AKXeL32zH4I",
                     "imgUrl":"img/event-system-pt3.png",
                     "category":"tutorials",
                     "post":"I'm going to update car prototype to make use of unity event system.",
@@ -19,7 +19,7 @@
                 {
                     "vidTitle":"Event System Pt. 2",
                     "heading":"4/27/16 - Unity3D Tutorial: Event System - Part 2",
-                    "vidLink":"https://youtu.be/FYgM3BcOly4",
+                    "vidLink":"https://www.youtube.com/embed/FYgM3BcOly4",
                     "imgUrl":"img/event-system-pt2.png",
                     "category":"tutorials",
                     "post":"I'm going to update my configuration scene to make use of my new event system.",
@@ -28,7 +28,7 @@
                 {
                     "vidTitle":"Event System Pt. 1",
                     "heading":"4/23/16 - Unity3D Tutorial: Event System - Part 1",
-                    "vidLink":"https://youtu.be/ZHFjs5ls2To",
+                    "vidLink":"https://www.youtube.com/embed/ZHFjs5ls2To",
                     "imgUrl":"img/event-system-pt1.png",
                     "category":"tutorials",
                     "post":"I'm going to talk about my TagArcadeEventSystem to replace the Standalone Input Module.",
@@ -37,7 +37,7 @@
                 {
                     "vidTitle":"Event System Overview",
                     "heading":"4/16/16 - Unity3D Tutorial: Event System - Overview",
-                    "vidLink":"https://youtu.be/lQbnyHfqDNc",
+                    "vidLink":"https://www.youtube.com/embed/lQbnyHfqDNc",
                     "imgUrl":"img/event-system-overview.png",
                     "category":"tutorials",
                     "post":"Here's my new series on how to merge the Unity Event System to my custom In-Button Game Mapping vidCode."
@@ -45,7 +45,7 @@
                 {
                     "vidTitle":"In-Game Button Configuration Pt. 3",
                     "heading":"2/22/16 - Tutorial: In-Game Button Configuration-Part 3",
-                    "vidLink":"https://youtu.be/JvGpe9gqeSg",
+                    "vidLink":"https://www.youtube.com/embed/JvGpe9gqeSg",
                     "imgUrl":"img/button-config-part-3.png",
                     "category":"tutorials",
                     "post":"Part 3 of my Button Configuration tutorial series. Here I'll teach you how to detect the analog sticks on the controller.",
@@ -54,7 +54,7 @@
                 {
                     "vidTitle":"In-Game Button Configuration Pt. 2",
                     "heading":"2/15/16 - Tutorial: In-Game Button Configuration-Part 2n",
-                    "vidLink":"https://youtu.be/mMgEKUSmoyI",
+                    "vidLink":"https://www.youtube.com/embed/mMgEKUSmoyI",
                     "imgUrl":"img/button-config-part-2.png",
                     "category":"tutorials",
                     "post":"Part 2 of my Button Configuration tutorial series. Here I'll teach you how to detect the buttons on the controller along with the keyboard keys.",
@@ -63,7 +63,7 @@
                 {
                     "vidTitle":"In-Game Button Configuration Pt. 1",
                     "heading":"2/14/16 - Tutorial: In-Game Button Configuration-Part 1n",
-                    "vidLink":"https://youtu.be/WK9pMr93GLE",
+                    "vidLink":"https://www.youtube.com/embed/WK9pMr93GLE",
                     "imgUrl":"img/button-config-part-1.png",
                     "category":"tutorials",
                     "post":"Part 1 of my Button Configuration tutorial series. Here I'll modify my car prototype script (from Tip: Why I'm using C# vs JavaScript) in order to redefine the controls later on.",
@@ -72,7 +72,7 @@
                 {
                     "vidTitle":"In-Game Button Configuration-Intro",
                     "heading":"2/13/16 - Tutorial: In-Game Button Configuration-Intro",
-                    "vidLink":"https://youtu.be/neSlcCNuWQ0",
+                    "vidLink":"https://www.youtube.com/embed/neSlcCNuWQ0",
                     "imgUrl":"img/button-config-intro.png",
                     "category":"tutorials",
                     "post":"An overview of the topics that will be covered in the In-Game Button Configuration tutorial series.",
@@ -81,7 +81,7 @@
                 {
                     "vidTitle":"Add Admob to Unity3d for iOS",
                     "heading":"2/7/16 - Tutorial: How to add Admob to Unity3D for IOSn",
-                    "vidLink":"https://youtu.be/8aaXmu9HkUo",
+                    "vidLink":"https://www.youtube.com/embed/8aaXmu9HkUo",
                     "imgUrl":"img/unity-3d-to-ios.png",
                     "category":"tutorials",
                     "post":"A video tutorial on how to add Admob to Unity3D for IOS."
@@ -89,7 +89,7 @@
                 {
                     "vidTitle":"Create/Publish from Unity 3D to Android",
                     "heading":"2/6/16 - Tutorial: How to add Admob to Unity3D for Androidn",
-                    "vidLink":"https://youtu.be/n2thREdwyro",
+                    "vidLink":"https://www.youtube.com/embed/n2thREdwyro",
                     "imgUrl":"img/unity-3d-to-android.png",
                     "category":"tutorials",
                     "post":"A video tutorial on how to add Admob to Unity3D for Android."
@@ -97,7 +97,7 @@
                 {
                     "vidTitle":"Create/Publish from Unity 3D to Apple App Store",
                     "heading":"1/31/16 - Tutorial: How to create / publish from Unity 3D to the Apple App Store ",
-                    "vidLink":"https://youtu.be/cKghYckRxXk",
+                    "vidLink":"https://www.youtube.com/embed/cKghYckRxXk",
                     "imgUrl":"img/unity-3d-to-app.png",
                     "category":"tutorials",
                     "post":"A video tutorial on how to create / publish from Unity3D to the Apple App Store."
@@ -105,7 +105,7 @@
                 {
                     "vidTitle":"Create/Publish from Unity 3D to Amazon App Store",
                     "heading":"1/31/16 - Tutorial: How to create/publish from Unity 3D to the Amazon App Store",
-                    "vidLink":"https://youtu.be/vsKAq1zze5Y",
+                    "vidLink":"https://www.youtube.com/embed/vsKAq1zze5Y",
                     "imgUrl":"img/amazon-store-submission.png",
                     "category":"tutorials",
                     "post":"A video tutorial on how to create/publish from Unity3D to the Amazon App Store."
@@ -113,7 +113,7 @@
                 {
                     "vidTitle":"Create/Publish from Unity 3D to Google Play Store",
                     "heading":"1/31/16 - Tutorial: How to create/publish from Unity 3D to the Google Play Store ",
-                    "vidLink":"https://youtu.be/ot2PyHVD7B0",
+                    "vidLink":"https://www.youtube.com/embed/ot2PyHVD7B0",
                     "imgUrl":"img/unity3d-to-play.png",
                     "category":"tutorials",
                     "post":"A video tutorial on how to create/publish from Unity3D to the Google Play Store."
@@ -121,7 +121,7 @@
                 {
                     "vidTitle":"How to Create Publish a Working Web GL Game",
                     "heading":"1/31/16 - Tutorial: How to create / publish a working WebGL game from Unity 3D ",
-                    "vidLink":"https://youtu.be/ckhh8lZwbHk",
+                    "vidLink":"https://www.youtube.com/embed/ckhh8lZwbHk",
                     "imgUrl":"img/web-gl-game.png",
                     "category":"tutorials",
                     "post":"A video tutorial on how to create / publish a WebGL version from Unity3D"
@@ -129,7 +129,7 @@
                 {
                     "vidTitle":"Screenshots In Unity3D",
                     "heading":"1/29/16 - Tip: Screenshots within Unity 3D for App Store Submissionsn",
-                    "vidLink":"https://youtu.be/hh7AuSM3WYQ",
+                    "vidLink":"https://www.youtube.com/embed/hh7AuSM3WYQ",
                     "imgUrl":"img/app-store.png",
                     "category":"tips",
                     "post":"It's very time consuming to compile your app to every device just for screenshots. So here's a trick to get those screenshots all within Unity3D.",
@@ -138,7 +138,7 @@
                 {
                     "vidTitle":"Submitting to Amazon Store",
                     "heading":"1/29/16 - Tip: How to fix unsupported devices on upcoming version via Amazon App Submission",
-                    "vidLink":"https://youtu.be/N7sDirIvPD0",
+                    "vidLink":"https://www.youtube.com/embed/N7sDirIvPD0",
                     "imgUrl":"img/amazon-store-submission.png",
                     "category":"tips",
                     "post":"This was painful. I submitted an updated app to the Google Play Store successfully, but couldn't figure out how to update it on the Amazon App Store. It kept on saying my update doesn't support any devices. After researching for two days, I had nothing and was about to give up when I stumbled upon it's secrets. Here's how to fix it for newbies like me. ARRRRRGGGGG!!!!!!!!!"
@@ -146,7 +146,7 @@
                 {
                     "vidTitle":"C# vs. JavaScript",
                     "heading":"1/10/16 - Tip: Unity - Why I'm using C# vs JavaScriptn",
-                    "vidLink":"https://youtu.be/eQW2knsFJuY",
+                    "vidLink":"https://www.youtube.com/embed/eQW2knsFJuY",
                     "imgUrl":"img/js-vs-c-sharp.png",
                     "category":"tips",
                     "post":"In this video, I'll explain one reason why I chose to use C# over JavaScript. To help illustrate this point, I'll create a car (it's really a cube) and make it move. I'll also talk about playmode tint within the Unity editor.",
@@ -155,7 +155,7 @@
                 {
                     "vidTitle":"Fixing A Common Warning",
                     "heading":"1/9/16 - Tip: Unity - Fix 'Application.LoadLevel(string)' is obsolete: 'Use SceneManager.LoadScene'",
-                    "vidLink":"https://youtu.be/no52RzBHxwE",
+                    "vidLink":"https://www.youtube.com/embed/no52RzBHxwE",
                     "imgUrl":"img/common-warning.png",
                     "category":"tips",
                     "post":"I'll discuss how to fix this warning. If you are also a beginner, I'll show you how to create two scenes and have a button load between them. Along the way, I'll purposefully introduce more errors so that you can learn what they are and how to fix them as well.n",
@@ -164,7 +164,7 @@
                 {
                     "vidTitle":"VLOG WEEK 4",
                     "heading":"1/30/16 - Game Development Video Log- Dot Evade - Week 4 n",
-                    "vidLink":"https://youtu.be/mx7nfGjkyCI",
+                    "vidLink":"https://www.youtube.com/embed/mx7nfGjkyCI",
                     "imgUrl":"img/vlog-4.png",
                     "category":"vlog",
                     "post":"Welcome to week 4. I updated the game's User Interface so it looks more polished. I also added additional sound effects and the player exploding. I used the WebGL build for the web version and you can now download the game for Windows and Mac."
@@ -172,7 +172,7 @@
                 {
                     "vidTitle":"VLOG WEEK 2 and 3",
                     "heading":"1/22/16 - Game Development Video Log- Dot Evade - Week 2&3 ",
-                    "vidLink":"https://youtu.be/mx7nfGjkyCI",
+                    "vidLink":"https://www.youtube.com/embed/mx7nfGjkyCI",
                     "imgUrl":"img/vlog-2+3.png",
                     "category":"vlog",
                     "post":"Here's week 3. I published the game to the Amazon App Store as well as the Google Play store. I added music and 4 player co-op. Additionally, I added default joystick controls when playing the game for the first time. I also talked about why I didn't post week 2. I was too busy playing with my Intuos Art tablet by Wacom to update my game."
@@ -180,7 +180,7 @@
                 {
                     "vidTitle":"Implement Admob Banner Ads",
                     "heading":"5/23/16 - Unity3D Tutorial: How to Implement Admob Banner Ads ",
-                    "vidLink":"https://youtu.be/S8YS4txoXf0",
+                    "vidLink":"https://www.youtube.com/embed/S8YS4txoXf0",
                     "imgUrl":"img/admob-banner-ads.png",
                     "category":"tutorials",
                     "post":"Here's an example of how to implement the Admob banner ads into a game project.n",
@@ -189,14 +189,14 @@
                 {
                     "vidTitle":"Add Admob to Unity3D for Android",
                     "heading":"5/22/16 - Unity3D Tutorial: How to add Admob to Unity3D for Android",
-                    "vidLink":"https://youtu.be/2hX9hnXuy2Y",
+                    "vidLink":"https://www.youtube.com/embed/2hX9hnXuy2Y",
                     "category":"tutorials",
                     "post":"Here's an updated Admob tutorial in Unity3D for Android."
                 },
                 {
                     "vidTitle":"Pause Your Game",
                     "heading":"6/12/16 - Unity3D Tutorial: How to Pause Your Game While Allowing Some Animations to Play ",
-                    "vidLink":"https://youtu.be/fSJNHB--Bdw",
+                    "vidLink":"https://www.youtube.com/embed/fSJNHB--Bdw",
                     "category":"tutorials",
                     "post":"I'll show you two ways to pause your game. One is the easiest with Time.timescale. While the other one is using a Pause template script. With this, your background animation will still play while everything else will pause. ",
                     "vidCode":"https://gist.github.com/TagArcade/83ea63140b23506ec676b47b2e3d95b5.js"

@@ -1,13 +1,12 @@
 'use strict';
 
-var app = angular.module('myApp', ['ui.router', 'ui.bootstrap']);
+var app = angular.module('myApp', ['ui.router', 'ui.bootstrap', 'angular-loading-bar']);
 
 app.config(function($stateProvider, $urlRouterProvider){
   $stateProvider
     .state('home', {
       url:'/',
-      templateUrl: '/html/home.html',
-      controller: 'homeCtrl'
+      templateUrl: '/html/home.html'
     })
     .state('dotevade', {
       url:'/dotevade',

@@ -12,8 +12,32 @@ app.controller('homeCtrl', function($scope, $state, $window, $rootScope, $locati
     };
 });
 
-app.controller('allvideosCtrl', ['$scope','$http','VideoService','$sce',function($scope, $http, VideoService,$sce){
+app.controller('allvideosCtrl', ['$scope', '$state','$http','VideoService','$sce',function($scope, $state, $http, VideoService,$sce){
+
   console.log('all videos controller!');
+  $scope.videos = [];
+  $scope.ready = false;
+  VideoService.getVideos().then(function(res){
+      $scope.videos = res.data;
+      $scope.ready = true;
+  }).catch(function(err){
+    console.log(err);
+  });
+
+  $scope.goToVideos = function(event,vidTitle){
+    console.log("go to:", `${vidTitle}`);
+      event.preventDefault();
+      VideoService.setTitle(vidTitle);
+      $state.go('video-page');
+  }
+
+
+
+}]);
+
+
+app.controller('videopageCtrl', ['$scope','$state','$http','VideoService','$sce',function($scope, $state, $http,VideoService,$sce){
+console.log('video page ctrl!');
   $scope.videos = [];
   $scope.ready = false;
   $scope.vidLink = null;
@@ -21,20 +45,20 @@ app.controller('allvideosCtrl', ['$scope','$http','VideoService','$sce',function
   VideoService.getVideos().then(function(res){
       $scope.videos = res.data;
       var vidTitle = VideoService.getTitle();
-      console.log('videos db:',$scope.videos);
+      console.log($scope.videos);
       var videoObject = $scope.videos.find(function(i){
-            return i.vidTitle == vidTitle;
+            return i.vidTitle === vidTitle;
       });
       // console.log('vidTitle:', videoObject.vidTitle);
       $scope.ready = true;
       if(videoObject){
         $scope.vidTitle = videoObject.vidTitle;
-        $scope.heading = videoObject.heading;
-        $scope.vidLink = $sce.trustAsResourceUrl(videoObject.vidLink);
-        $scope.imgUrl = videoObject.imgUrl;
-        $scope.category = videoObject.category;
-        $scope.post = videoObject.post;
-        $scope.vidCode = $sce.trustAsResourceUrl(videoObject.vidCode);
+          $scope.vidLink = $sce.trustAsResourceUrl(videoObject.vidLink);
+          $scope.vidCode = $sce.trustAsResourceUrl(videoObject.vidCode);
+          $scope.heading = videoObject.heading;
+          $scope.imgUrl = videoObject.imgUrl;
+          $scope.category = videoObject.category;
+          $scope.post = videoObject.post;
         }
 
   }).catch(function(err){
