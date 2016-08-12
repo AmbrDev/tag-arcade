@@ -1,7 +1,7 @@
 'use strict';
 
 app.factory('VideoService',['$http',function($http){
-    var _vidTitle = "surprise";
+    var _vidTitle = "Game Development Vlog for Dot Evade";
     var _videos = null;
 
     return {

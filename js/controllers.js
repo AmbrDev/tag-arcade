@@ -14,6 +14,7 @@ app.controller('homeCtrl', function($scope, $state, $window, $rootScope, $locati
 
 app.controller('allvideosCtrl', ['$scope', '$state','$http','VideoService','$sce',function($scope, $state, $http, VideoService,$sce){
 
+
   console.log('all videos controller!');
   $scope.videos = [];
   $scope.ready = false;
@@ -23,16 +24,12 @@ app.controller('allvideosCtrl', ['$scope', '$state','$http','VideoService','$sce
   }).catch(function(err){
     console.log(err);
   });
-
   $scope.goToVideos = function(event,vidTitle){
-    console.log("go to:", `${vidTitle}`);
       event.preventDefault();
       VideoService.setTitle(vidTitle);
+      console.log("go to:", `${vidTitle}`);
       $state.go('video-page');
   }
-
-
-
 }]);
 
 
@@ -45,7 +42,7 @@ console.log('video page ctrl!');
   VideoService.getVideos().then(function(res){
       $scope.videos = res.data;
       var vidTitle = VideoService.getTitle();
-      console.log($scope.videos);
+      console.log('The vidTitle is:', `${vidTitle}`);
       var videoObject = $scope.videos.find(function(i){
             return i.vidTitle === vidTitle;
       });
