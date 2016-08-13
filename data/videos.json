@@ -1,7 +1,7 @@
 [
                 {
                     "vidTitle":"Game Development Vlog for Dot Evade",
-                    "heading":"1/9/16 - Game Development Video Log- Dot Evade 1 - Week 1n",
+                    "heading":"1/9/16 - Game Development Video Log- Dot Evade 1 - Week 1",
                     "vidLink":"https://www.youtube.com/embed/5Ok2iYo4fyQ",
                     "imgUrl":"img/vlog-1.png",
                     "category":"vlog",
@@ -53,7 +53,7 @@
                 },
                 {
                     "vidTitle":"In-Game Button Configuration Pt. 2",
-                    "heading":"2/15/16 - Tutorial: In-Game Button Configuration-Part 2n",
+                    "heading":"2/15/16 - Tutorial: In-Game Button Configuration-Part 2",
                     "vidLink":"https://www.youtube.com/embed/mMgEKUSmoyI",
                     "imgUrl":"img/button-config-part-2.png",
                     "category":"tutorials",
@@ -62,7 +62,7 @@
                 },
                 {
                     "vidTitle":"In-Game Button Configuration Pt. 1",
-                    "heading":"2/14/16 - Tutorial: In-Game Button Configuration-Part 1n",
+                    "heading":"2/14/16 - Tutorial: In-Game Button Configuration-Part 1",
                     "vidLink":"https://www.youtube.com/embed/WK9pMr93GLE",
                     "imgUrl":"img/button-config-part-1.png",
                     "category":"tutorials",
@@ -80,7 +80,7 @@
                 },
                 {
                     "vidTitle":"Add Admob to Unity3d for iOS",
-                    "heading":"2/7/16 - Tutorial: How to add Admob to Unity3D for IOSn",
+                    "heading":"2/7/16 - Tutorial: How to add Admob to Unity3D for IOS",
                     "vidLink":"https://www.youtube.com/embed/8aaXmu9HkUo",
                     "imgUrl":"img/unity-3d-to-ios.png",
                     "category":"tutorials",
@@ -88,7 +88,7 @@
                 },
                 {
                     "vidTitle":"Create/Publish from Unity 3D to Android",
-                    "heading":"2/6/16 - Tutorial: How to add Admob to Unity3D for Androidn",
+                    "heading":"2/6/16 - Tutorial: How to add Admob to Unity3D for Android",
                     "vidLink":"https://www.youtube.com/embed/n2thREdwyro",
                     "imgUrl":"img/unity-3d-to-android.png",
                     "category":"tutorials",
@@ -128,7 +128,7 @@
                 },
                 {
                     "vidTitle":"Screenshots In Unity3D",
-                    "heading":"1/29/16 - Tip: Screenshots within Unity 3D for App Store Submissionsn",
+                    "heading":"1/29/16 - Tip: Screenshots within Unity 3D for App Store Submissions",
                     "vidLink":"https://www.youtube.com/embed/hh7AuSM3WYQ",
                     "imgUrl":"img/app-store.png",
                     "category":"tips",
@@ -145,7 +145,7 @@
                 },
                 {
                     "vidTitle":"C# vs. JavaScript",
-                    "heading":"1/10/16 - Tip: Unity - Why I'm using C# vs JavaScriptn",
+                    "heading":"1/10/16 - Tip: Unity - Why I'm using C# vs JavaScript",
                     "vidLink":"https://www.youtube.com/embed/eQW2knsFJuY",
                     "imgUrl":"img/js-vs-c-sharp.png",
                     "category":"tips",
@@ -158,12 +158,12 @@
                     "vidLink":"https://www.youtube.com/embed/no52RzBHxwE",
                     "imgUrl":"img/common-warning.png",
                     "category":"tips",
-                    "post":"I'll discuss how to fix this warning. If you are also a beginner, I'll show you how to create two scenes and have a button load between them. Along the way, I'll purposefully introduce more errors so that you can learn what they are and how to fix them as well.n",
+                    "post":"I'll discuss how to fix this warning. If you are also a beginner, I'll show you how to create two scenes and have a button load between them. Along the way, I'll purposefully introduce more errors so that you can learn what they are and how to fix them as well.",
                     "vidCode":"https://gist.github.com/TagArcade/00a3be774b2a83dbdcf03220da78fccb.js"
                 },
                 {
                     "vidTitle":"VLOG WEEK 4",
-                    "heading":"1/30/16 - Game Development Video Log- Dot Evade - Week 4 n",
+                    "heading":"1/30/16 - Game Development Video Log- Dot Evade - Week 4",
                     "vidLink":"https://www.youtube.com/embed/mx7nfGjkyCI",
                     "imgUrl":"img/vlog-4.png",
                     "category":"vlog",
@@ -183,7 +183,7 @@
                     "vidLink":"https://www.youtube.com/embed/S8YS4txoXf0",
                     "imgUrl":"img/admob-banner-ads.png",
                     "category":"tutorials",
-                    "post":"Here's an example of how to implement the Admob banner ads into a game project.n",
+                    "post":"Here's an example of how to implement the Admob banner ads into a game project.",
                     "vidCode":"https://gist.github.com/TagArcade/d7fab2e83b9eb5a510f6ef1047c6d9c2.js"
                 },
                 {

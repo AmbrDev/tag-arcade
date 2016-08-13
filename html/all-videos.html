@@ -13,17 +13,12 @@
     </div>
 </div>
 <!-- JUMBOTRON END -->
-
 <div class="video-container" ng-if="ready">
-
   <div class="search-bar">
     <div class="input-list style-1 clearfix">
       <div><input type="text" placeholder="Type 'Unity3D' or 'vlog'" ng-model="searchBox"></div>
     </div>
   </div>
-
-
-
     <div class="row">
       <!-- VLOG -->
       <div class="row filter-options">
@@ -36,9 +31,7 @@
                 <input type="checkbox"/>
                 <hr />
       </div>
-
         <div class="col-sm-6 col-md-4" ng-repeat="video in videos | orderBy:'category' | filter:searchBox">
-
             <div class="thumbnail">
                 <img src="{{video.imgUrl}}" alt="...">
                 <h6 ng-model="$parent.video">

@@ -1,22 +1,29 @@
-<!-- <div class="playlist-state">
-  <div class="playlist-container" ng-if="ready">
-    <div class="spotify-embed">
-      <h2>{{video}}</h2>
-      <br>
-      <iframe ng-src="{{url}}" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
-      <br>
-      <a ui-sref="home">Back</a>
+<div class="container" style="padding-top:10%; padding-bottom:10%;">
+  <div class="video" ng-if="ready">
+    <div class="row match-my-cols">
+      <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="{{vidLink}}"></iframe>
+        </div>
+        <h1>{{vidTitle}}</h1>
+        <h4>{{heading}}</h4>
+        <div class="vid-post">{{post}}</div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" class="FixedHeightContainer">
+        <div class="Content">
+          <ul style="list-style: none; padding-left:0;">
+              <li ng-repeat="video in videos">
+                  <div class="vid-thumbnails" >
+                    <img style="padding-top:5%; padding-bottom:5%; width:100%; max-width: 200px;" src="{{video.imgUrl}}">
+                  </div>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div ng-if="vidCode" class="row code-snippet">
+      <script src="{{vidCode}}"></script>
     </div>
   </div>
-</div> -->
-
-
-<div class="video" ng-if="ready">
-  <div class="row">{{vidTitle}}</div>
-  <div class="row">{{heading}}</div>
-  <div class="row">{{post}}</div>
-  <iframe width="420" height="315" src="{{vidLink}}"></iframe>
-  <!-- <div ng-if="vidCode" class="row code-snippet">
-    <script src="{{vidCode}}"></script>
-  </div> -->
 </div>

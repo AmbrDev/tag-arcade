@@ -44,7 +44,6 @@ console.log('video page ctrl!');
       var videoObject = $scope.videos.find(function(i){
             return i.vidTitle === vidTitle;
       });
-      // console.log('vidTitle:', videoObject.vidTitle);
       $scope.ready = true;
       if(videoObject){
         $scope.vidTitle = videoObject.vidTitle;
@@ -59,5 +58,12 @@ console.log('video page ctrl!');
   }).catch(function(err){
     console.log(err);
   });
+
+  $scope.nextVid = function(event,vidTitle){
+      event.preventDefault();
+      VideoService.setTitle(vidTitle);
+      console.log("go to:", `${vidTitle}`);
+      $state.go('video-page');
+  }
 
 }]);

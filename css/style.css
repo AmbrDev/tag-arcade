@@ -704,3 +704,30 @@ input[type="text"]:focus {
   color: #333;
 }
 /*ALL VIDEOS END*/
+
+/*VID PAGE START*/
+
+.row.match-my-cols {
+    overflow: hidden;
+}
+
+.row.match-my-cols [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.FixedHeightContainer {
+  float:right;
+  height: 100%;
+  min-height: 100%;
+  width:100%;
+}
+.Content {
+  height:600px;
+  text-align: center;
+  max-height: 100%;
+  overflow:auto;
+  border: 1px solid gray;
+  /*outline-style: ridge;*/
+}
+/*VID PAGE END*/
