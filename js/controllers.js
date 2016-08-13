@@ -11,7 +11,6 @@ app.controller('homeCtrl', function($scope, $state, $window, $rootScope, $locati
         return viewLocation === $location.path();
     };
 });
-
 app.controller('allvideosCtrl', ['$scope', '$state','$http','VideoService','$sce',function($scope, $state, $http, VideoService,$sce){
   console.log('all videos controller!');
   $scope.videos = [];
@@ -54,16 +53,17 @@ console.log('video page ctrl!');
           $scope.category = videoObject.category;
           $scope.post = videoObject.post;
         }
-
   }).catch(function(err){
     console.log(err);
   });
 
-  $scope.nextVid = function(event,vidTitle){
+  $scope.newVid = function(event,vidTitle){
       event.preventDefault();
       VideoService.setTitle(vidTitle);
       console.log("go to:", `${vidTitle}`);
-      $state.go('video-page');
+      $state.reload();
+      // $scope.vidTitle = videoObject.vidTitle;
+      // $state.go('video-page');
   }
 
 }]);

@@ -34,9 +34,7 @@
         <div class="col-sm-6 col-md-4" ng-repeat="video in videos | orderBy:'category' | filter:searchBox">
             <div class="thumbnail">
                 <img src="{{video.imgUrl}}" alt="...">
-                <h6 ng-model="$parent.video">
-                     {{video.vidTitle}}
-                </h6>
+                <h6>{{video.vidTitle}}</h6>
                 <a ng-click="goToVideos($event, video.vidTitle)" class="btn btn-primary col-xs-12" role="button">Watch</a>
                 <div class="clearfix"></div>
             </div>

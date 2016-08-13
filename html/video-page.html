@@ -14,9 +14,11 @@
         <div class="Content">
           <ul style="list-style: none; padding-left:0;">
               <li ng-repeat="video in videos">
-                  <div class="vid-thumbnails" >
+                  <!-- <div class="vid-thumbnails"> -->
+                  <a style="background-color:#fff;" ng-click="newVid($event, video.vidTitle)" class="btn btn-primary col-xs-12" role="button">
                     <img style="padding-top:5%; padding-bottom:5%; width:100%; max-width: 200px;" src="{{video.imgUrl}}">
-                  </div>
+                  </a>
+                  <!-- </div> -->
               </li>
             </ul>
         </div>
