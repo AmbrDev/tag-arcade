@@ -106,7 +106,7 @@
                     "vidTitle":"Create/Publish from Unity 3D to Amazon App Store",
                     "heading":"1/31/16 - Tutorial: How to create/publish from Unity 3D to the Amazon App Store",
                     "vidLink":"https://www.youtube.com/embed/vsKAq1zze5Y",
-                    "imgUrl":"img/amazon-store-submission.png",
+                    "imgUrl":"img/unity3d-to-amazon.png",
                     "category":"tutorials",
                     "post":"A video tutorial on how to create/publish from Unity3D to the Amazon App Store."
                 },
@@ -190,6 +190,7 @@
                     "vidTitle":"Add Admob to Unity3D for Android",
                     "heading":"5/22/16 - Unity3D Tutorial: How to add Admob to Unity3D for Android",
                     "vidLink":"https://www.youtube.com/embed/2hX9hnXuy2Y",
+                    "imgUrl":"img/admob-unity-android.png",
                     "category":"tutorials",
                     "post":"Here's an updated Admob tutorial in Unity3D for Android."
                 },
@@ -197,6 +198,7 @@
                     "vidTitle":"Pause Your Game",
                     "heading":"6/12/16 - Unity3D Tutorial: How to Pause Your Game While Allowing Some Animations to Play ",
                     "vidLink":"https://www.youtube.com/embed/fSJNHB--Bdw",
+                    "imgUrl":"img/unity3d-paused.png",
                     "category":"tutorials",
                     "post":"I'll show you two ways to pause your game. One is the easiest with Time.timescale. While the other one is using a Pause template script. With this, your background animation will still play while everything else will pause. ",
                     "vidCode":"https://gist.github.com/TagArcade/83ea63140b23506ec676b47b2e3d95b5.js"
