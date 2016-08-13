@@ -3,6 +3,10 @@
     <div class="row match-my-cols">
       <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1"></div>
       <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+        <div class="row">
+          <br>
+          <br>
+        </div>
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="{{vidLink}}"></iframe>
         </div>
@@ -11,21 +15,26 @@
         <div class="vid-post">{{post}}</div>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" class="FixedHeightContainer">
+        <div class="row">
+          <h5 style="text-align:center;">See more</h5>
+        </div>
         <div class="Content">
           <ul style="list-style: none; padding-left:0;">
               <li ng-repeat="video in videos">
-                  <!-- <div class="vid-thumbnails"> -->
                   <a style="background-color:#fff;" ng-click="newVid($event, video.vidTitle)" class="btn btn-primary col-xs-12" role="button">
                     <img style="padding-top:5%; padding-bottom:5%; width:100%; max-width: 200px;" src="{{video.imgUrl}}">
                   </a>
-                  <!-- </div> -->
               </li>
             </ul>
         </div>
       </div>
     </div>
-    <div ng-if="vidCode" class="row code-snippet">
-      <script src="{{vidCode}}"></script>
-    </div>
+
+  <div ng-if="vidCode">
+    {{vidCode}}
+  </div>
+  <div ng-if="!vidCode">
+     <a href="mailto:media@tagarcade.com"><h4>Have any questions? Let me know. </h4></a>
+  </div>
   </div>
 </div>

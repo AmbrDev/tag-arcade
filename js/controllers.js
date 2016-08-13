@@ -2,11 +2,9 @@
 
 var app = angular.module('myApp');
 
-
 app.controller('homeCtrl', function($scope, $state, $window, $rootScope, $location) {
   console.log('home works!');
    $rootScope.$on('$stateChangeStart', function() { $window.scrollTo(0,0) });
-
    $scope.isActive = function(viewLocation) {
         return viewLocation === $location.path();
     };
@@ -28,7 +26,6 @@ app.controller('allvideosCtrl', ['$scope', '$state','$http','VideoService','$sce
       $state.go('video-page');
   }
 }]);
-
 
 app.controller('videopageCtrl', ['$scope','$state','$http','VideoService','$sce',function($scope, $state, $http,VideoService,$sce){
 console.log('video page ctrl!');
@@ -62,8 +59,8 @@ console.log('video page ctrl!');
       VideoService.setTitle(vidTitle);
       console.log("go to:", `${vidTitle}`);
       $state.reload();
-      // $scope.vidTitle = videoObject.vidTitle;
-      // $state.go('video-page');
   }
+
+
 
 }]);
