@@ -2,7 +2,7 @@
 
 var app = angular.module('myApp');
 
-app.controller('homeCtrl', function($scope, $state, $window, $rootScope, $location) {
+app.controller('mainCtrl', function($scope, $state, $window, $rootScope, $location) {
   console.log('home works!');
    $rootScope.$on('$stateChangeStart', function() { $window.scrollTo(0,0) });
    $scope.isActive = function(viewLocation) {

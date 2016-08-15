@@ -4,9 +4,10 @@ var app = angular.module('myApp', ['ui.router', 'ui.bootstrap', 'angular-loading
 
 app.config(function($stateProvider, $urlRouterProvider){
   $stateProvider
-    .state('home', {
+    .state('main', {
       url:'/',
-      templateUrl: '/html/home.html'
+      templateUrl: '/html/home.html',
+      controller: 'mainCtrl'
     })
     .state('dotevade', {
       url:'/dotevade',
