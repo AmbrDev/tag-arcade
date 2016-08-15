@@ -9,6 +9,11 @@ app.config(function($stateProvider, $urlRouterProvider){
       templateUrl: '/html/home.html',
       controller: 'mainCtrl'
     })
+    .state('home', {
+      url:'/home',
+      templateUrl: '/html/home.html',
+      controller: 'homeCtrl'
+    })
     .state('dotevade', {
       url:'/dotevade',
       templateUrl: '/html/dotevade.html'

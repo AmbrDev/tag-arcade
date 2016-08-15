@@ -3,11 +3,14 @@
 var app = angular.module('myApp');
 
 app.controller('mainCtrl', function($scope, $state, $window, $rootScope, $location) {
-  console.log('home works!');
    $rootScope.$on('$stateChangeStart', function() { $window.scrollTo(0,0) });
    $scope.isActive = function(viewLocation) {
         return viewLocation === $location.path();
     };
+});
+
+app.controller('homeCtrl', function($scope, $state) {
+  console.log('home works!');
 });
 app.controller('allvideosCtrl', ['$scope', '$state','$http','VideoService','$sce',function($scope, $state, $http, VideoService,$sce){
   console.log('all videos controller!');
