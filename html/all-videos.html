@@ -19,18 +19,9 @@
       <div><input type="text" placeholder="Type 'Unity3D' or 'vlog'" ng-model="searchBox"></div>
     </div>
   </div>
+  <br><br>
     <div class="row">
       <!-- VLOG -->
-      <div class="row filter-options">
-        <h2>Categories</h2>
-                <label>Tutorials</label>
-                <input  type="checkbox"/>&nbsp;
-                <label>Tips</label>
-                <input type="checkbox"/>&nbsp;
-                <label>Vlog</label>
-                <input type="checkbox"/>
-                <hr />
-      </div>
         <div class="col-sm-6 col-md-4" ng-repeat="video in videos | orderBy:'category' | filter:searchBox">
             <div class="thumbnail">
                 <img src="{{video.imgUrl}}" alt="...">
